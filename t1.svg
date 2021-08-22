@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1370" height="881" viewBox="0 0 1370 881">
+  <defs>
+    <filter id="background" x="0" y="0" width="1370" height="881" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="15" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_1" data-name="Group 1" transform="translate(-275 -100)">
+    <g id="browser" transform="translate(-10 75)">
+      <g transform="matrix(1, 0, 0, 1, 285, 25)" filter="url(#background)">
+        <rect id="background-2" data-name="background" width="1280" height="791" rx="20" transform="translate(45 45)" fill="#fff"/>
+      </g>
+      <path id="bar" d="M4,0H1274a4,4,0,0,1,4,4V54a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V4A4,4,0,0,1,4,0Z" transform="translate(332 70)" fill="#f6f6f6"/>
+      <g id="button" transform="translate(6 5)">
+        <g id="circle" transform="translate(342 83)" fill="#f3605c" stroke="#d64542" stroke-width="0.5">
+          <circle cx="9.5" cy="9.5" r="9.5" stroke="none"/>
+          <circle cx="9.5" cy="9.5" r="9.25" fill="none"/>
+        </g>
+        <g id="circle-2" data-name="circle" transform="translate(371 83)" fill="#f8be39" stroke="#d89f2c" stroke-width="0.5">
+          <ellipse cx="9" cy="9.5" rx="9" ry="9.5" stroke="none"/>
+          <ellipse cx="9" cy="9.5" rx="8.75" ry="9.25" fill="none"/>
+        </g>
+        <g id="circle-3" data-name="circle" transform="translate(400 83)" fill="#50c845" stroke="#40ab2f" stroke-width="0.5">
+          <ellipse cx="9" cy="9.5" rx="9" ry="9.5" stroke="none"/>
+          <ellipse cx="9" cy="9.5" rx="8.75" ry="9.25" fill="none"/>
+        </g>
+      </g>
+      <g id="Rectangle_1" data-name="Rectangle 1" transform="translate(617 77)" fill="#fff" stroke="#b5b4b4" stroke-width="1">
+        <rect width="684" height="41" rx="10" stroke="none"/>
+        <rect x="0.5" y="0.5" width="683" height="40" rx="9.5" fill="none"/>
+      </g>
+      <text id="Sample_Name" data-name="Sample Name" transform="translate(899 106)" fill="#707070" font-size="20" font-family="Bahnschrift"><tspan x="0" y="0">Sample Name</tspan></text>
+      <text id="Click_Here:" data-name="Click Here:" transform="translate(649 106)" fill="#707070" font-size="20" font-family="Bahnschrift"><tspan x="0" y="0">Click Here:</tspan></text>
+    </g>
+  </g>
+</svg>
